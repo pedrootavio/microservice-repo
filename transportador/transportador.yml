@@ -3,7 +3,7 @@ spring:
   datasource:
     password: root
     username: root
-    url: jdbc:mysql://localhost:3306/tranportador #Antes crie o banco de dados "fornecedor"
+    url: jdbc:mysql://localhost:3306/transportador #Antes crie o banco de dados "fornecedor"
   jpa:
     hibernate:
       ddl-auto: update #Use "create" na primeira vez depois "update"
